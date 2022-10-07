@@ -47,3 +47,4 @@ questions. Thank you!
 ## Credits:
 https://github.com/leogomezz4t/PyTextNow_API
 <br />https://youtu.be/0eVnAHULFm0
+<br />https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373
