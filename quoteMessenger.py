@@ -36,7 +36,7 @@ def sendMessage():
 	client.send_sms(PHONE, quote) #Send message
 
 
-
+#Error Handling
 try:
 	jsonManagement()
 	sendMessage()
