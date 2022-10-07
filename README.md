@@ -12,7 +12,7 @@ also use this project to send an SMS to yourself containing some other data such
 ## Steps
 #### 1. Clone
 The first step would be to clone this repository into a directory of your choice. The steps for this look different depending on if you are using ssh or not. If you are using ssh
-you must make an SSH key and put it into GitHub. Here is a resource for that: [Connecting To GitHub with SSH][1]
+you must make an SSH key and put it into GitHub. Here is a resource for that: [Connecting To GitHub with SSH][1].
 #### 2. Activate venv and install packages
 In this project we will use a python venv or virtual environment to store all of our packages and dependencies. We will make this venv in the same directory that
 we cloned the repository into.
