@@ -38,7 +38,7 @@ def sendMessage(quote):
 
 #Error Handling
 try:
-	quote = jsonManagement()
+	quote = jsonManagement() #Set variable for sendMessage parameter
 	sendMessage(quote)
 
 except:
