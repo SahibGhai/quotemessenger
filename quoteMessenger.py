@@ -29,17 +29,17 @@ def jsonManagement():
 	jsonl = len(json.loads(request.text)) #serializes into python type list and gets len
 	jsonS = json.loads(request.text) #serializes into python type list
 	randQuote = jsonS[random.randint(0,jsonl)]["text"] #find rand index and then get value of text key from dictionary
-	quote = return randQuote
+	return randQuote
 
 #Function to send message
-def sendMessage():
+def sendMessage(quote):
 	client.send_sms(PHONE, quote) #Send message
 
 
 #Error Handling
 try:
-	jsonManagement()
-	sendMessage()
+	quote = jsonManagement()
+	sendMessage(quote)
 
 except:
 	connect_to_internet()
