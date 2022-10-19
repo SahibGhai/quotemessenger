@@ -28,8 +28,8 @@ def jsonManagement():
 	#Start parsing process
 	jsonl = len(json.loads(request.text)) #serializes into python type list and gets len
 	jsonS = json.loads(request.text) #serializes into python type list
-	global quote
 	quote = jsonS[random.randint(0,jsonl)]["text"] #find rand index and then get value of text key from dictionary
+	return quote
 
 #Function to send message
 def sendMessage():
